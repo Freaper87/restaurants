@@ -1,0 +1,21 @@
+@tailwind base;
+h1 {
+    @apply text-5xl my-4 font-bold;
+}
+input {
+    @apply py-4 px-2 border border-gray-300 rounded;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+@variants hover {
+    .button:hover {
+        @apply bg-blue-700;
+    }
+}
+
+.button {
+    @apply my-4 rounded bg-blue-500 text-white px-5 py-2;
+}
